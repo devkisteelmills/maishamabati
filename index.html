@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEVKI STEEL MAISHA MABATI MILLS LTD | Athi River</title>
+  <meta name="description" content="Best prices on steel, mabati, cement, timber, nails, water tanks and general hardware. Factory prices. Free delivery. Athi River, Mombasa Road." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER: both logos + bold name -->
+  <header class="header">
+    <div class="container header-top">
+      <a href="#" class="logo-group">
+        <img src="images/YH.png" alt="Devki" class="logo-devki">
+        <span class="brand-title">
+          <span class="bt-main">DEVKI STEEL</span>
+          <span class="bt-sub">MAISHA MABATI MILLS LTD</span>
+        </span>
+        <img src="images/cropped-MABATI_MAISHA_LOGO2.webp" alt="Maisha Mabati" class="logo-maisha">
+      </a>
+
+      <nav class="nav-desktop">
+        <a href="#home">Home</a>
+        <a href="#popular">Best Sellers</a>
+        <a href="#products">Shop</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#inquiry">Enquiry</a>
+        <a href="#location">Location</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="header-cart" id="cartBtn" aria-label="Cart">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="nav-mobile" id="navMobile">
+        <a href="#home">Home</a>
+        <a href="#popular">Best Sellers</a>
+        <a href="#products">Shop</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#inquiry">Enquiry</a>
+        <a href="#location">Location</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PROMO -->
+  <div class="promo-banner" id="promoBanner">
+    <div class="container promo-inner">
+      <span>🔥 Free delivery on orders above <strong>KSh 50,000</strong> &nbsp;•&nbsp; Best prices on TMT &amp; Mabati</span>
+      <button class="promo-close" id="promoClose" aria-label="Close">&times;</button>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-slides">
+      <div class="hero-slide active" style="background-image:url('images/ezgif.com-gif-maker-1536x1025.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('images/IMG_0990.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('images/IMG_0966.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('images/IMG_0962-1.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('images/WKbbi.jpg')"></div>
+    </div>
+    <div class="container hero-content">
+      <p class="hero-badge">Bei Ya Mwananchi</p>
+      <h1>DEVKI STEEL<br>MAISHA MABATI MILLS</h1>
+      <p class="hero-sub">Steel • Mabati • Cement • Timber • Nails • Tiles • Water Tanks</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn btn-primary">View Price List</a>
+        <a href="https://wa.me/254102899955?text=Hello%20Devki%20Steel%2C%20I%20want%20to%20order" class="btn btn-outline" target="_blank">WhatsApp Order</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEARCH -->
+  <div class="search-strip">
+    <div class="container">
+      <div class="search-wrap">
+        <input type="search" id="productSearch" class="product-search" placeholder="Search products e.g. D12, mabati, tank 5000, cement..." autocomplete="off">
+        <svg class="search-icon" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- POPULAR / BEST SELLERS -->
+  <section class="popular" id="popular">
+    <div class="container">
+      <div class="section-header">
+        <h2>Popular &amp; Best Sellers</h2>
+        <p>Most ordered products this month</p>
+      </div>
+      <div class="popular-grid">
+        <a href="#products" class="popular-card" data-scroll-filter="steel">
+          <img src="images/tmt-bar.jpg" alt="TMT Bars" loading="lazy">
+          <div class="popular-card-body">
+            <div class="tag-row"><span class="tag tag-top">Top Seller</span></div>
+            <h4>TMT Bars D8–D20</h4>
+            <div class="price">From KSh 410</div>
+          </div>
+        </a>
+        <a href="#products" class="popular-card" data-scroll-filter="mabati">
+          <img src="images/MAISHA-ALU-ZINC-MABATI-11_3-300x300.webp" alt="Corrugated Mabati" loading="lazy">
+          <div class="popular-card-body">
+            <div class="tag-row"><span class="tag tag-top">Top Seller</span></div>
+            <h4>Corrugated Mabati</h4>
+            <div class="price">KSh 330 / m</div>
+          </div>
+        </a>
+        <a href="#products" class="popular-card" data-scroll-filter="cement">
+          <img src="images/simba-cement.jpg" alt="Simba Cement" loading="lazy">
+          <div class="popular-card-body">
+            <div class="tag-row"><span class="tag tag-top">Top Seller</span></div>
+            <h4>Simba Cement</h4>
+            <div class="price">KSh 550 / bag</div>
+          </div>
+        </a>
+        <a href="#products" class="popular-card" data-scroll-filter="tanks">
+          <img src="images/water-tanks-toptank.jpg" alt="Water Tanks" loading="lazy">
+          <div class="popular-card-body">
+            <div class="tag-row"><span class="tag tag-new">New Arrival</span></div>
+            <h4>Water Tanks 1000–10000L</h4>
+            <div class="price">From KSh 6,500</div>
+          </div>
+        </a>
+        <a href="#products" class="popular-card" data-scroll-filter="mabati">
+          <img src="images/mabati-box-profile.jpg" alt="Box Profile" loading="lazy">
+          <div class="popular-card-body">
+            <div class="tag-row"><span class="tag tag-new">New Arrival</span></div>
+            <h4>Box Profile Mabati</h4>
+            <div class="price">KSh 360 / m</div>
+          </div>
+        </a>
+        <a href="#products" class="popular-card" data-scroll-filter="wires">
+          <img src="images/brc-mesh.jpg" alt="BRC Mesh" loading="lazy">
+          <div class="popular-card-body">
+            <div class="tag-row"><span class="tag tag-top">Top Seller</span></div>
+            <h4>BRC Wire Mesh</h4>
+            <div class="price">From KSh 4,500</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <div class="products-banner">
+      <div class="container">
+        <h2>Full Price List</h2>
+        <p>Factory prices — quality guaranteed • Add to cart then order on WhatsApp</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="steel">Steel</button>
+        <button class="filter-btn" data-filter="mabati">Mabati</button>
+        <button class="filter-btn" data-filter="cement">Cement</button>
+        <button class="filter-btn" data-filter="tiles">Tiles</button>
+        <button class="filter-btn" data-filter="gypsum">Gypsum</button>
+        <button class="filter-btn" data-filter="tanks">Water Tanks</button>
+        <button class="filter-btn" data-filter="timber">Timber</button>
+        <button class="filter-btn" data-filter="nails">Nails</button>
+        <button class="filter-btn" data-filter="wires">Wires &amp; Mesh</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+
+        <div class="product-card" data-category="steel" data-name="TMT Bars D8-D20">
+          <div class="product-img">
+            <img src="images/tmt-bar.jpg" alt="TMT Bars" loading="lazy">
+            <div class="product-badges"><span class="tag tag-top">Top Seller</span></div>
+          </div>
+          <div class="product-info">
+            <h3>TMT Bars</h3>
+            <div class="price-rows">
+              <div class="price-row"><span class="label">D8</span><span class="value">KSh 410</span></div>
+              <div class="price-row"><span class="label">D10</span><span class="value">KSh 680</span></div>
+              <div class="price-row"><span class="label">D12</span><span class="value">KSh 1,050</span></div>
+              <div class="price-row"><span class="label">D16</span><span class="value">KSh 1,950</span></div>
+              <div class="price-row"><span class="label">D20</span><span class="value">KSh 3,050</span></div>
+            </div>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1" max="9999">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="TMT Bars (D8–D20)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="steel" data-name="Binding Wire 20kg">
+          <div class="product-img">
+            <img src="images/binding-wire.jpg" alt="Binding Wire" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Binding Wire</h3>
+            <p class="price-single">KSh 2,400 <small>/ 20 kg roll</small></p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Binding Wire 20kg — KSh 2,400">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="steel" data-name="Hoop Iron Wallpass">
+          <div class="product-img">
+            <img src="images/devki-rebar-brand.jpg" alt="Hoop Iron" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Hoop Iron / Wallpass</h3>
+            <p class="price-single">KSh 1,300 <small>/ 10 kg roll</small></p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Hoop Iron / Wallpass 10kg — KSh 1,300">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="steel" data-name="Hollow Sections Pipes">
+          <div class="product-img">
+            <img src="images/IMG_0966.jpg" alt="Hollow Sections" loading="lazy">
+            <div class="product-badges"><span class="tag tag-new">New Arrival</span></div>
+          </div>
+          <div class="product-info">
+            <h3>Hollow Sections &amp; Pipes</h3>
+            <p class="price-single">Ask for quote</p>
+            <p class="brand-note">Square • Rectangular • Round</p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Hollow Sections & Pipes — Quote">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="mabati" data-name="Corrugated Mabati">
+          <div class="product-img">
+            <img src="images/MAISHA-ALU-ZINC-MABATI-11_3-300x300.webp" alt="Corrugated Mabati" loading="lazy">
+            <div class="product-badges"><span class="tag tag-top">Top Seller</span></div>
+          </div>
+          <div class="product-info">
+            <h3>Corrugated Mabati</h3>
+            <p class="price-single">KSh 330 <small>/ metre</small></p>
+            <p class="brand-note">Gauge 30 • Maisha / Nyumba</p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Corrugated Mabati G30 — KSh 330/m">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="mabati" data-name="Box Profile Mabati">
+          <div class="product-img">
+            <img src="images/mabati-box-profile.jpg" alt="Box Profile" loading="lazy">
+            <div class="product-badges"><span class="tag tag-new">New Arrival</span></div>
+          </div>
+          <div class="product-info">
+            <h3>Box Profile Mabati</h3>
+            <p class="price-single">KSh 360 <small>/ metre</small></p>
+            <p class="brand-note">Gauge 30 • Maisha / Nyumba</p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Box Profile Mabati G30 — KSh 360/m">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="mabati" data-name="Dumuzas Mabati">
+          <div class="product-img">
+            <img src="images/colored-mabati.jpg" alt="Dumuzas" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Dumuzas Mabati (MRM)</h3>
+            <p class="price-single">KSh 400 <small>/ metre</small></p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Dumuzas Mabati MRM — KSh 400/m">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="mabati" data-name="Versatile Mabati">
+          <div class="product-img">
+            <img src="images/MAISHA-ROMAN-TILE-300x300.webp" alt="Versatile" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Versatile Mabati</h3>
+            <p class="price-single">KSh 480 <small>/ metre</small></p>
+            <p class="brand-note">Gauge 30 • Maisha / Nyumba</p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Versatile Mabati G30 — KSh 480/m">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="cement" data-name="Simba Cement">
+          <div class="product-img">
+            <img src="images/simba-cement.jpg" alt="Simba Cement" loading="lazy">
+            <div class="product-badges"><span class="tag tag-top">Top Seller</span></div>
+          </div>
+          <div class="product-info">
+            <h3>Simba Cement</h3>
+            <p class="price-single">KSh 550 <small>/ bag</small></p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Simba Cement — KSh 550/bag">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="cement" data-name="Bamburi Cement">
+          <div class="product-img">
+            <img src="images/bamburi-cement.jpg" alt="Bamburi Cement" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Bamburi Cement (Nguvu)</h3>
+            <p class="price-single">KSh 650 <small>/ bag</small></p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Bamburi Cement (Nguvu) — KSh 650/bag">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="tiles" data-name="Floor Tiles">
+          <div class="product-img">
+            <img src="images/floor-tiles.jpg" alt="Floor Tiles" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Floor Tiles</h3>
+            <div class="price-rows">
+              <div class="price-row"><span class="label">30×30 (17 pcs)</span><span class="value">KSh 850</span></div>
+              <div class="price-row"><span class="label">40×40 (12 pcs)</span><span class="value">KSh 1,250</span></div>
+              <div class="price-row"><span class="label">60×60 (4 pcs)</span><span class="value">KSh 2,150</span></div>
+            </div>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Floor Tiles">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="tiles" data-name="Wall Tiles">
+          <div class="product-img">
+            <img src="images/floor-tiles.jpg" alt="Wall Tiles" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Wall Tiles</h3>
+            <div class="price-rows">
+              <div class="price-row"><span class="label">25×40 (15 pcs)</span><span class="value">KSh 850</span></div>
+              <div class="price-row"><span class="label">30×60 (8 pcs)</span><span class="value">KSh 1,350</span></div>
+            </div>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Wall Tiles">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="gypsum" data-name="Gypsum Boards">
+          <div class="product-img">
+            <img src="images/shopping%20(3).webp" alt="Gypsum" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Gypsum Boards &amp; Accessories</h3>
+            <div class="price-rows">
+              <div class="price-row"><span class="label">Boards 9mm</span><span class="value">KSh 550</span></div>
+              <div class="price-row"><span class="label">Channels</span><span class="value">KSh 80</span></div>
+              <div class="price-row"><span class="label">Studs</span><span class="value">KSh 80</span></div>
+              <div class="price-row"><span class="label">Gyproc Filler</span><span class="value">KSh 1,400</span></div>
+              <div class="price-row"><span class="label">Corner Tape</span><span class="value">KSh 800</span></div>
+              <div class="price-row"><span class="label">Screws (1000pcs)</span><span class="value">KSh 500</span></div>
+              <div class="price-row"><span class="label">Ceiling Boards</span><span class="value">KSh 900</span></div>
+            </div>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Gypsum Boards & Accessories">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="tanks" data-name="Water Tanks">
+          <div class="product-img">
+            <img src="images/water-tanks-toptank.jpg" alt="Water Tanks" loading="lazy">
+            <div class="product-badges"><span class="tag tag-new">New Arrival</span></div>
+          </div>
+          <div class="product-info">
+            <h3>Water Tanks</h3>
+            <p class="brand-note">Kentank • Techno • Roto</p>
+            <div class="price-rows">
+              <div class="price-row"><span class="label">1,000 L</span><span class="value">KSh 6,500</span></div>
+              <div class="price-row"><span class="label">2,000 L</span><span class="value">KSh 10,500</span></div>
+              <div class="price-row"><span class="label">3,000 L</span><span class="value">KSh 16,500</span></div>
+              <div class="price-row"><span class="label">4,000 L</span><span class="value">KSh 21,500</span></div>
+              <div class="price-row"><span class="label">5,000 L</span><span class="value">KSh 26,500</span></div>
+              <div class="price-row"><span class="label">6,000 L</span><span class="value">KSh 31,500</span></div>
+              <div class="price-row"><span class="label">8,000 L</span><span class="value">KSh 42,500</span></div>
+              <div class="price-row"><span class="label">10,000 L</span><span class="value">KSh 52,500</span></div>
+            </div>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Water Tanks">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="timber" data-name="Cypress Timber">
+          <div class="product-img">
+            <img src="images/download%20(8).webp" alt="Cypress Timber" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Cypress Roofing Timber</h3>
+            <div class="price-rows">
+              <div class="price-row"><span class="label">2 × 2</span><span class="value">KSh 15</span></div>
+              <div class="price-row"><span class="label">3 × 2</span><span class="value">KSh 25</span></div>
+              <div class="price-row"><span class="label">4 × 2</span><span class="value">KSh 35</span></div>
+              <div class="price-row"><span class="label">6 × 2</span><span class="value">KSh 60</span></div>
+              <div class="price-row"><span class="label">8 × 1</span><span class="value">KSh 65</span></div>
+            </div>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Cypress Roofing Timber">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="timber" data-name="MDF Boards">
+          <div class="product-img">
+            <img src="images/mdf-boards.jpg" alt="MDF Boards" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>MDF Boards</h3>
+            <p class="price-single">KSh 2,800</p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="MDF Boards — KSh 2,800">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="nails" data-name="Common Nails">
+          <div class="product-img">
+            <img src="images/6-2.jpg" alt="Nails" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Common Nails</h3>
+            <div class="price-rows">
+              <div class="price-row"><span class="label">2 Inch</span><span class="value">KSh 125 / kg</span></div>
+              <div class="price-row"><span class="label">2.5 Inch</span><span class="value">KSh 125 / kg</span></div>
+              <div class="price-row"><span class="label">3 Inch</span><span class="value">KSh 125 / kg</span></div>
+            </div>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Common Nails — KSh 125/kg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="nails" data-name="Roofing Nails">
+          <div class="product-img">
+            <img src="images/1-3.jpg" alt="Roofing Nails" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Roofing Nails</h3>
+            <p class="price-single">KSh 190 <small>/ kg</small></p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Roofing Nails — KSh 190/kg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="wires" data-name="BRC Wire Mesh">
+          <div class="product-img">
+            <img src="images/brc-mesh.jpg" alt="BRC Mesh" loading="lazy">
+            <div class="product-badges"><span class="tag tag-top">Top Seller</span></div>
+          </div>
+          <div class="product-info">
+            <h3>BRC Wire Mesh</h3>
+            <div class="price-rows">
+              <div class="price-row"><span class="label">A142</span><span class="value">KSh 24,500</span></div>
+              <div class="price-row"><span class="label">A98</span><span class="value">KSh 16,500</span></div>
+              <div class="price-row"><span class="label">A66</span><span class="value">KSh 9,500</span></div>
+              <div class="price-row"><span class="label">A610</span><span class="value">KSh 4,500</span></div>
+            </div>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="BRC Wire Mesh">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="wires" data-name="Chain Link">
+          <div class="product-img">
+            <img src="images/chain-link-rolls.jpg" alt="Chain Link" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Chain Link (18m, 14 Gauge)</h3>
+            <div class="price-rows">
+              <div class="price-row"><span class="label">4 Feet</span><span class="value">KSh 1,600</span></div>
+              <div class="price-row"><span class="label">5 Feet</span><span class="value">KSh 2,300</span></div>
+              <div class="price-row"><span class="label">6 Feet</span><span class="value">KSh 2,600</span></div>
+              <div class="price-row"><span class="label">7 Feet</span><span class="value">KSh 3,100</span></div>
+            </div>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Chain Link 18m 14 Gauge">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="wires" data-name="Barbed Wire">
+          <div class="product-img">
+            <img src="images/barbed-wire-devki.jpg" alt="Barbed Wire" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Barbed Wire</h3>
+            <p class="price-single">KSh 3,800 <small>/ 610 metres</small></p>
+            <div class="add-row">
+              <div class="qty-wrap">
+                <button type="button" class="qty-btn qty-minus">−</button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button type="button" class="qty-btn qty-plus">+</button>
+              </div>
+              <button class="btn btn-cart" data-add="Barbed Wire 610m — KSh 3,800">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FACTORY -->
+  <section class="gallery" id="gallery">
+    <div class="gallery-banner" style="background-image:url('images/IMG_0990.jpg')">
+      <div class="gallery-banner-content">
+        <h2>Our Factory &amp; Operations</h2>
+        <p>Quality production and large stock always available</p>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="images/ezgif.com-gif-maker-1536x1025.jpg" alt="Steel works" loading="lazy"></div>
+      <div class="gallery-item"><img src="images/IMG_0990.jpg" alt="Workshop" loading="lazy"></div>
+      <div class="gallery-item"><img src="images/IMG_0966.jpg" alt="Warehouse" loading="lazy"></div>
+      <div class="gallery-item"><img src="images/IMG_0962-1.jpg" alt="Pipes" loading="lazy"></div>
+      <div class="gallery-item"><img src="images/WKbbi.jpg" alt="Wire production" loading="lazy"></div>
+      <div class="gallery-item"><img src="images/hollow-sections-warehouse.jpg" alt="Hollow sections" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>Customer Reviews</h2>
+        <p>Trusted by builders and homeowners across Kenya</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>“Ordered TMT and mabati for my site. Fair prices, fast delivery. Highly recommend Devki Steel.”</p>
+          <strong>— Mutanu, Machakos</strong>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>“Quality cement and binding wire every time. WhatsApp ordering is very convenient.”</p>
+          <strong>— James Kariuki, Nyeri</strong>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>“Bought a 5000L tank and box profile sheets. Genuine products and good service.”</p>
+          <strong>— Abdala Hassan, Mombasa</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Quick answers before you order</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">Do you deliver countrywide?</button>
+          <div class="faq-a">Yes. We deliver across Kenya. Free delivery applies on qualified orders (typically above KSh 50,000). Contact us for your area.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">What payment methods do you accept?</button>
+          <div class="faq-a">We accept M-Pesa, cash on delivery, and bank transfer. Details are shared when you confirm your order on WhatsApp.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Are your products KEBS certified?</button>
+          <div class="faq-a">Yes. We supply genuine KEBS-certified steel, mabati, cement and related materials from trusted brands including Devki, Maisha and Simba.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How do I place an order?</button>
+          <div class="faq-a">Search or browse products, set quantity, add to cart, then tap “Order via WhatsApp”. You can also call or WhatsApp +254 102 899 955 directly.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Can I get a quote for bulk or mixed orders?</button>
+          <div class="faq-a">Yes. Use the enquiry form below or WhatsApp us with your full list. We respond quickly with availability and total.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INQUIRY FORM -->
+  <section class="inquiry" id="inquiry">
+    <div class="container inquiry-grid">
+      <div class="inquiry-info">
+        <h2>Product Enquiry</h2>
+        <p>Need a quote or bulk order? Send your details and we will reply on WhatsApp.</p>
+        <p><strong>📞 +254 102 899 955</strong></p>
+        <p>📍 Athi River, Mombasa Road</p>
+      </div>
+      <form class="inquiry-form" id="inquiryForm">
+        <div class="form-group">
+          <label for="inqName">Your name</label>
+          <input type="text" id="inqName" name="name" required placeholder="Full name">
+        </div>
+        <div class="form-group">
+          <label for="inqPhone">Phone / WhatsApp</label>
+          <input type="tel" id="inqPhone" name="phone" required placeholder="07XX XXX XXX">
+        </div>
+        <div class="form-group">
+          <label for="inqProduct">Product</label>
+          <select id="inqProduct" name="product">
+            <option value="">Select product</option>
+            <option>TMT Bars</option>
+            <option>Mabati / Roofing sheets</option>
+            <option>Cement</option>
+            <option>Water Tanks</option>
+            <option>Timber</option>
+            <option>Nails</option>
+            <option>BRC / Chain Link / Wire</option>
+            <option>Tiles / Gypsum</option>
+            <option>Other / Mixed order</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="inqQty">Quantity / details</label>
+          <textarea id="inqQty" name="details" placeholder="e.g. D12 × 30 pieces, Corrugated mabati 40 metres..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-whatsapp">Send via WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section class="location-section" id="location">
+    <div class="container location-grid">
+      <div class="location-info">
+        <h2>Visit Our Yard</h2>
+        <p class="location-addr">📍 Athi River, Mombasa Road</p>
+        <p>Call / WhatsApp: <a href="tel:+254102899955"><strong>+254 102 899 955</strong></a></p>
+        <div class="hours-box">
+          <h4>Working Hours</h4>
+          <ul class="hours-list">
+            <li><span>Monday – Friday</span><strong>8:00 AM – 5:00 PM</strong></li>
+            <li><span>Saturday</span><strong>9:00 AM – 2:00 PM</strong></li>
+            <li><span>Sunday</span><strong>10:00 AM – 1:00 PM</strong></li>
+          </ul>
+          <p class="hours-note" id="openStatus">Checking status…</p>
+        </div>
+        <div class="location-actions">
+          <a href="tel:+254102899955" class="btn btn-call">📞 Call</a>
+          <a href="https://wa.me/254102899955" class="btn btn-whatsapp" target="_blank">WhatsApp</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Athi+River+Mombasa+Road+Kenya" class="btn btn-primary" target="_blank">Open Maps</a>
+        </div>
+      </div>
+      <div class="map-wrap">
+        <iframe title="Location map" src="https://maps.google.com/maps?q=Athi%20River%20Mombasa%20Road%20Kenya&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;border-radius:12px;min-height:300px;" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>About DEVKI STEEL</h2>
+        <p>DEVKI STEEL MAISHA MABATI MILLS LTD supplies high-quality steel, Maisha mabati, cement, timber, nails, water tanks and general hardware at factory-competitive prices.</p>
+        <p>Genuine Devki, Maisha, Simba and other leading brands — with fast delivery across Kenya.</p>
+        <ul class="about-list">
+          <li>✓ KEBS certified products</li>
+          <li>✓ Factory direct pricing — Bei ya Mwananchi</li>
+          <li>✓ Free delivery on qualified orders</li>
+          <li>✓ Large stock always available</li>
+        </ul>
+        <div class="brand-logos">
+          <img src="images/YH.png" alt="Devki" class="brand-logo">
+          <img src="images/cropped-MABATI_MAISHA_LOGO2.webp" alt="Maisha Mabati" class="brand-logo maisha-logo">
+          <img src="images/grok_1789500331109.jpg" alt="Devki Group" class="brand-logo">
+        </div>
+      </div>
+      <div class="about-card">
+        <h3>Order Now</h3>
+        <p><strong>📍</strong> Athi River, Mombasa Road</p>
+        <p><strong>📞</strong> +254 102 899 955</p>
+        <p><strong>🕐</strong> Mon–Fri 8AM–5PM · Sat 9AM–2PM · Sun 10AM–1PM</p>
+        <div class="btn-row">
+          <a href="tel:+254102899955" class="btn btn-call">Call</a>
+          <a href="https://wa.me/254102899955" class="btn btn-whatsapp" target="_blank">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" style="background-image:url('images/ezgif.com-gif-maker-1536x1025.jpg')">
+    <div class="container">
+      <h2>Ready to Order?</h2>
+      <p>Best prices on general hardware. Free &amp; fast delivery countrywide.</p>
+      <div class="cta-btns">
+        <a href="tel:+254102899955" class="btn btn-primary btn-lg">📞 +254 102 899 955</a>
+        <a href="https://wa.me/254102899955?text=Hello%20Devki%20Steel%2C%20I%20would%20like%20to%20place%20an%20order" class="btn btn-outline btn-lg" target="_blank">WhatsApp Order</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/YH.png" alt="Devki" class="footer-logo">
+        <strong>DEVKI STEEL MAISHA MABATI MILLS LTD</strong>
+        <p>Quality construction materials at competitive prices.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#products">Shop</a>
+        <a href="#popular">Best Sellers</a>
+        <a href="#faq">FAQ</a>
+        <a href="#inquiry">Enquiry</a>
+        <a href="#location">Location</a>
+      </div>
+      <div class="footer-contact">
+        <p>📍 Athi River, Mombasa Road</p>
+        <p>📞 +254 102 899 955</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 DEVKI STEEL MAISHA MABATI MILLS LTD. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="tel:+254102899955" class="float-call" aria-label="Call">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="#fff"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+  </a>
+  <a href="https://wa.me/254102899955?text=Hello%20Devki%20Steel" class="float-whatsapp" target="_blank" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" width="26" height="26"><path fill="#fff" d="M16.1 3C9.5 3 4.1 8.4 4.1 15c0 2.3.7 4.5 1.9 6.4L4 28.1l6.9-1.8c1.8 1 3.9 1.5 6 1.5 6.6 0 12-5.4 12-12S22.7 3 16.1 3zm0 21.8c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-4.1 1.1 1.1-4-.3-.4c-1.1-1.7-1.7-3.6-1.7-5.6 0-5.4 4.4-9.8 9.8-9.8s9.8 4.4 9.8 9.8-4.4 9.8-9.8 9.8zm5.4-7.3c-.3-.1-1.7-.8-2-1s-.5-.1-.7.1c-.2.3-.7 1-.9 1.2s-.3.2-.6.1c-.3-.1-1.2-.4-2.3-1.4-1-1-1.6-2.1-1.8-2.4s0-.5.1-.6c.1-.1.3-.3.4-.4.1-.1.2-.3.3-.4.1-.1.1-.3 0-.4s-.7-1.6-1-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.7.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3 0-.1-.2-.2-.5-.3z"/></svg>
+  </a>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>Your Cart</h3>
+      <button class="cart-close" id="cartClose">&times;</button>
+    </div>
+    <div class="cart-body" id="cartBody">
+      <p class="cart-empty">Your cart is empty.</p>
+    </div>
+    <div class="cart-footer">
+      <a href="#" class="btn btn-whatsapp" id="cartCheckout" target="_blank">Order via WhatsApp</a>
+      <button class="cart-clear" id="cartClear">Clear cart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
